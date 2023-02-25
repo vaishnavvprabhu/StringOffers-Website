@@ -3,6 +3,7 @@
 
 
 <!-- ======= Footer ======= -->
+</div>
     <footer id="footer">
 
 
@@ -28,7 +29,7 @@
                                         <br>
                                    
                                 </div>
-                            </div>
+                            
                         </div>
                     </div>
 

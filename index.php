@@ -26,7 +26,7 @@ include 'important-link.php';
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="200">
                     <div class="b-h">
                         <div class="row">
-                            <div class="col-lg-4 text-center">
+                            <div class="col-lg-2 text-center">
                                 <img src="assets/img/paper-plane1.png" class="img-fluid " alt="">
                             </div>
                             <div class="col-lg-8 " data-aos="zoom-in" data-aos-delay="200">
@@ -47,7 +47,7 @@ include 'important-link.php';
                 <div class="col-lg-5 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="200">
                     <div class="b-h">
                         <div class="row">
-                            <div class="col-lg-4 text-center " d>
+                            <div class="col-lg-2 text-center " d>
                                 <img src="assets/img/adwords1.png" class="img-fluid" alt="">
                             </div>
                             <div class="col-lg-8 order-1 order-lg-2" >

@@ -26,8 +26,8 @@
                                                         aria-hidden="true"></i></a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-sm-6 text-center img-r" data-aos="zoom-in" data-aos-delay="200">
-                                            <img src="assets/img/blog1.png" class="img-fluid animated" alt="">
+                                        <div class="col-lg-4 col-sm-6 " data-aos="zoom-in" data-aos-delay="200">
+                                            <img src="assets/img/blog1.png" class="blog-image animated" alt="" style="object-fit: cover;">
                                         </div>
 
                                     </div>

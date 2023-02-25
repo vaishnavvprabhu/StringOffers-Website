@@ -18,7 +18,7 @@ html, body {
 }
 
 .gradient-line{
-  width: 136px;
+  width: 202px;
   border: none;
   height: 7px;
   background:var(--gradient);
@@ -54,7 +54,7 @@ ul {
 
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #444444;
 }
 
@@ -71,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Jost", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .container-w {
@@ -83,8 +83,9 @@ h6 {
 .hero-img {
   background-color: var(--bg);
   padding: 59px 21px;
-  width: 100%;
-  border-radius: 31px;
+  width: 90%;
+  margin: auto;
+  border-radius: 40px;
   border: 0.5px solid white;
 }
 
@@ -254,12 +255,14 @@ h6 {
 
 .navbar a,
 .navbar a:focus {
+  text-transform: uppercase;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 0 10px 30px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -288,7 +291,8 @@ h6 {
   font-size: 14px;
   border: 1px solid var(--bs-cyan);
   border-radius: 7px;
-  font-weight: 600;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 
 .navbar .getstarted:hover,
@@ -509,18 +513,19 @@ h6 {
   padding-top: 72px;
 }
 
-#hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
+#hero h1{
+  margin: 0 0 20px 0;
+  font-size: 64px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 76px;
   color: #fff;
 }
 
 #hero h2 {
   color: rgb(255 255 255);
+  margin-top: 10px;
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 /* #hero .btn-get-started {
@@ -4017,8 +4022,8 @@ tbody.collapse.in {
 }
 
 .line{
-  height: 153px;
-  border-right: 1px solid #fff;
+  height: 190px;
+  border-right: 2px solid #fff;
   text-align: center;
   width: 50%;
 }
@@ -4370,6 +4375,7 @@ padding-bottom: 20px;
   color: #fff;
   font-size:24px;
 }
+
 .nav-link:focus, .nav-link:hover {
   color: #c4c4c4;
 }
