@@ -574,7 +574,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 110vh;
     text-align: center;
   }
 
@@ -585,11 +585,11 @@ h6 {
 
   #hero .hero-img {
     text-align: center;
-    margin-left: 0px;
   }
 
   #hero .hero-img img {
-    width: 50%;
+    width: 10%;
+    padding: 10px;
   }
 }
 
@@ -3881,7 +3881,7 @@ tbody.collapse.in {
 } */
 
 .glider-contain {
-  width: 100%
+  width: 120%
 }
 
 .glider {
@@ -4026,6 +4026,7 @@ tbody.collapse.in {
   border-right: 2px solid #fff;
   text-align: center;
   width: 50%;
+
 }
 
 .btn-block{

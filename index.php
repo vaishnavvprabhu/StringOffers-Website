@@ -39,9 +39,10 @@ include 'important-link.php';
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-1 order-1 order-lg-2 hidden-xs" data-aos="zoom-in" data-aos-delay="200">
                     <div class="line">
-
+                    
                     </div>
                 </div>
                 <div class="col-lg-5 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="200">

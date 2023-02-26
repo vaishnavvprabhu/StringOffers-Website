@@ -172,8 +172,10 @@
         cursor: default;
     }
 
+    /* 26/02/2023 - Fixed mobile overflow issue 
+    Author: vvp*/
     .glider-next {
-        right: -23px;
+        right: 30%;
         left: auto;
         font-size: 23px;
         top: 145px;
@@ -263,4 +265,22 @@
     }
 
 
+}
+
+/* New Code */
+
+@media (max-width: 991px){
+    /* Probably Not the best way to implement it */
+    .hidden-xs{
+        display: none !important;
+    }
+
+    .hero-img{
+        padding-top:10px;
+        padding-bottom:30px;
+    }
+
+    .b-h {
+        padding: 20px;
+    }
 }
