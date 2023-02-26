@@ -58,5 +58,3 @@ pages/ directory contains all the individual pages of the website like the home 
 .gitignore file contains the list of files and directories that are ignored by Git.
 index.php is the entry point of the website.
 
-
-## Important: This is a private repository. If you see this publicly, please inform it's author
