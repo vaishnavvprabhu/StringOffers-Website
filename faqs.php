@@ -8,7 +8,7 @@ include 'important-link.php';
 
 
 <!-- ======= Hero Section ======= -->
-<section id="faqs" class="d-flex align-items-center">
+<!-- <section id="faqs" class="d-flex align-items-center">
 
     <div class="container">
         <div class="row">
@@ -21,7 +21,7 @@ include 'important-link.php';
                     <br>
                     <div class="search">
                         <form action="" method="post">
-                            <input type="email" name="email" placeholder="type your question">
+                            <input type="email" name="email" placeholder="Type your Question">
                             <button type="submit" class="btn-sub"><i class="fa fa-search"></i></button>
                         </form>
                     </div>
@@ -29,7 +29,7 @@ include 'important-link.php';
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Hero -->
 
 

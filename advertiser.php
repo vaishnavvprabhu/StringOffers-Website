@@ -7,7 +7,7 @@ include 'important-link.php';
 
 <!-- ======= Hero Section -  ======= -->
 <!-- TODO:Figure out a better way to implement the Padding -->
-<section id="Advertiser" class="d-flex align-items-center">
+<section id="Advertiser" class="d-flex align-items-center" style="padding-top:33vh;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"

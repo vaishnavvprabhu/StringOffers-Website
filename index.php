@@ -292,18 +292,6 @@ include 'blog-view.php';
 
             </section>
 
-
-
-
-
-
-
-
-
-
-
-
-            <!-- ======= Hero Section ======= -->
             <section id="contact-form" class="d-flex align-items-center">
 
                 <div class="container">
@@ -352,7 +340,7 @@ include 'blog-view.php';
                                     <!-- <p class="text-p"> Already a member? <b>Log in</b> here.</p> -->
                                     <div class="form-group col-md-12" style="padding:10px 0px;">
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                                        <label for="vehicle1"> I agree to the <b> <a href="privacy-policy.php" data-toggle="modal"
+                                        <label for="vehicle1"> I agree to the <b> <a href="privacy-policy.php" sdata-toggle="modal"
                                                     data-target="#myModal"> Privacy Policy</a></b></label><br>
                                     </div>
                                     <div class="">

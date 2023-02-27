@@ -41,16 +41,7 @@ include 'important-link.php';
             </div>
         </div>
         </div>
-    </section><!-- End Hero -->
-
-
-
-
-
-
-
-
-    <!-- ======= About Us Section ======= -->
+    </section>
     <section id="our-sec" class="about">
         <div class="container" data-aos="fade-up">
 
@@ -107,12 +98,7 @@ include 'important-link.php';
 
 
     </section>
-
-
-     <!-- End About Us Section -->
-   <!-- ======= Hero Section ======= -->
    <section id="about" class="d-flex align-items-center">
-
 <div class="container-fluid align-item-center d-flex text-center " >
     <div class="row">
         <div class="col-lg-6 order-1 order-lg-2 hieght-h d-flex align-items-center "  data-aos="zoom-in" data-aos-delay="200">
@@ -128,14 +114,8 @@ include 'important-link.php';
                         marketing platform in the market.
                     </p>
                     </div>
-
-                    
-
-
-               
         </div>
         <div class="col-lg-6 order-1 order-lg-2 bg hieght-h d-flex align-items-center "  data-aos="zoom-in" data-aos-delay="200">
-           
            <div class="boxh">
            <h1>Our Vision</h1>
                     <p>We aim to provide value to affiliates and help them succeed in their affiliate marketing
@@ -147,32 +127,18 @@ include 'important-link.php';
                         marketing platform in the market.
                     </p>
            </div>
-
-           
-
-
-      
 </div>
-       
     </div>
 </div>
 </div>
-</section><!-- End Hero -->
-
-
-
-
-
-    <!-- ======= Hero Section ======= -->
+</section>
             <section id="join" class="">
-
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 "
                             data-aos="fade-up" data-aos-delay="200">
                             <h1 class="white">Ready To start your journey?</h1>
                         </div>
-
                         <div class="col-lg-6 " >
                             <div class="">
                                 <div class="ul-btn">
@@ -191,13 +157,7 @@ include 'important-link.php';
                     </div>
                 </div>
                 </div>
-            </section><!-- End Hero -->
-
-
-
-
-
-
+            </section>
     <?php 
 include 'footer.php';
 include 'f-important-link.php';
