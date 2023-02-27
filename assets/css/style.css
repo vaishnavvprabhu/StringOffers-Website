@@ -595,7 +595,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 40px;
     line-height: 36px;
   }
 
@@ -606,7 +606,7 @@ h6 {
   }
 
   #hero .hero-img img {
-    width: 70%;
+    width: 10%;
   }
 }
 
@@ -2066,7 +2066,7 @@ section {
 }
 
 .signup .php-email-form .form-group {
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
 }
 
 .signup .php-email-form .validate {
@@ -2120,7 +2120,7 @@ section {
 }
 
 .signup .php-email-form .form-group {
-  margin-bottom: 20px;
+
 }
 
 .signup .php-email-form label {
@@ -2408,7 +2408,7 @@ section {
 #about {
   background-color: var(--white);
   padding-top: 0px !important;
-  padding-bottom: 32px;
+  padding-bottom: 0px;
 }
 
 #our-sec {
@@ -2427,7 +2427,7 @@ color: #fff;
 
   .bg{
     background: var( --bg);
-    background-image: url(../..//assets/img/target1.png);
+    background-color: #0a1b48;
     background-repeat: no-repeat;
     background-position-x: right;
   }
@@ -2460,7 +2460,7 @@ color: #fff;
 #login .nav-pills>li>a {
   /* border-radius: 0px; */
   background-color: transparent;
-  padding: 10px 46px;
+  /* padding: 10px 46px; */
   border: 1px solid #1eedde;
   color: #000;
 }
@@ -2480,7 +2480,6 @@ color: #fff;
 .nav-pills>li.active>a:focus {
   color: #000;
   background: var(--gradient);
-  padding: 10px 20px;
 }
 
 .gray {

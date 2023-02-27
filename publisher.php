@@ -219,7 +219,7 @@ include 'blog-view.php';
 
 
 
-
+<!-- 
     <section id="bloggers">
         <div class="container">
             <div class="section-title">
@@ -229,7 +229,7 @@ include 'blog-view.php';
             <div id="myCarousel3" class="carousel slide mt-5" data-ride="carousel">
 
 
-                <!-- Item slider-->
+        
                 <div class="container-fluid">
 
                     <div class="row">
@@ -338,17 +338,13 @@ include 'blog-view.php';
                     </div>
                 </div>
 
-                <!-- Left and right controls -->
-                <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <i class='fa fa-angle-left'></i>
-                    </a> -->
                 <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
                     <i class='fa fa-angle-right'></i>
                 </a>
             </div>
         </div>
 
-    </section>
+    </section> -->
 
 
 
@@ -358,7 +354,7 @@ include 'blog-view.php';
 
 
 
-    <section id="clientlogo">
+    <!-- <section id="clientlogo">
         <div class="container">
             <div class="section-title">
                 <h1>Our Partners</h1>
@@ -367,7 +363,6 @@ include 'blog-view.php';
             <div id="myCarousel4" class="carousel slide mt-5" data-ride="carousel">
 
 
-                <!-- Item slider-->
                 <div class="container-fluid">
 
                     <div class="row">
@@ -426,17 +421,14 @@ include 'blog-view.php';
                     </div>
                 </div>
 
-                <!-- Left and right controls -->
-                <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <i class='fa fa-angle-left'></i>
-                    </a> -->
+
                 <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
                     <i class='fa fa-angle-right'></i>
                 </a>
             </div>
         </div>
 
-    </section>
+    </section> -->
 
 
 

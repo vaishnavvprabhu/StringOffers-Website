@@ -147,16 +147,8 @@ include 'important-link.php';
                                                     placeholder="Email" required>
                                             </div>
                                             <div class="form-group col-md-12">
-
-                                                <select name="pets" id="pet-select" class="form-control">
-                                                    <option value="">--Category--</option>
-                                                    <option value="dog">Dog</option>
-                                                    <option value="cat">Cat</option>
-                                                    <option value="hamster">Hamster</option>
-                                                    <option value="parrot">Parrot</option>
-                                                    <option value="spider">Spider</option>
-                                                    <option value="goldfish">Goldfish</option>
-                                                </select>
+                                                <input type="text" name="subject" class="form-control" id="subject"
+                                                    placeholder="Subject" required>
                                             </div>
                                             <div class="form-group col-md-12">
                                                 <textarea class="form-control" name="message" rows="10"

@@ -267,10 +267,8 @@
 
 }
 
-/* New Code */
-
+/* New Code - 26/02/2023 Author : Vaishnav */
 @media (max-width: 991px){
-    /* Probably Not the best way to implement it */
     .hidden-xs{
         display: none !important;
     }

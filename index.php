@@ -48,7 +48,7 @@ include 'important-link.php';
                 <div class="col-lg-5 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="200">
                     <div class="b-h">
                         <div class="row">
-                            <div class="col-lg-2 text-center " d>
+                            <div class="col-lg-2 text-center ">
                                 <img src="assets/img/adwords1.png" class="img-fluid" alt="">
                             </div>
                             <div class="col-lg-8 order-1 order-lg-2" >
@@ -338,12 +338,7 @@ include 'blog-view.php';
 
 
                                         <div class="form-group col-md-12">
-                                            <select id="cars" class="form-control" name="cars">
-
-                                                <option value="volvo">I am a Publisher</option>
-                                                <option value="volvo">I am a Advertiser</option>
-
-                                            </select>
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
                                         </div>
                                         <div class="form-group col-md-12">
                                             <textarea name="" id="" cols="30" rows="4"></textarea>
@@ -357,7 +352,7 @@ include 'blog-view.php';
                                     <!-- <p class="text-p"> Already a member? <b>Log in</b> here.</p> -->
                                     <div class="form-group col-md-12" style="padding:10px 0px;">
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                                        <label for="vehicle1"> I agree to the <b> <a data-toggle="modal"
+                                        <label for="vehicle1"> I agree to the <b> <a href="privacy-policy.php" data-toggle="modal"
                                                     data-target="#myModal"> Privacy Policy</a></b></label><br>
                                     </div>
                                     <div class="">

@@ -9,11 +9,11 @@ include 'important-link.php'
                 <h2 class="me-auto">Welcome Back!</h2>
                 <div id="exTab1" class="container text-center mt-5">
                     <ul class="nav nav-pills">
-                        <li class="active">
+                        <!-- <li class="active">
                             <a href="#1a" data-toggle="tab">Publisher</a>
                         </li>
                         <li><a href="#2a" data-toggle="tab">Advertiser</a>
-                        </li>
+                        </li> -->
                     </ul>
                     <div class="tab-content clearfix">
                         <div class="tab-pane active" id="1a">

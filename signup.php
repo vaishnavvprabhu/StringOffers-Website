@@ -103,7 +103,7 @@ if(isset($_POST['submit_a'])){
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-12 text-center d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+        <div class="col-lg-12 text-center d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 "
             data-aos="fade-up" data-aos-delay="200">
             <h1>Join us as a publisher today.</h1>
             <center>
@@ -149,7 +149,7 @@ if(isset($_POST['submit_a'])){
                                     <div class="signup">
                                         <div class="row">
                                          
-                                            <div class="col-lg-12 col-sm-6 col-xs-12">
+                                            <div class="col-lg-12 col-xs-12 floating-column">
 
                                                 <div class="align-items-stretch">
 
@@ -245,11 +245,18 @@ if(isset($_POST['submit_a'])){
                                                                     id="linkedin_url" placeholder="Linkedin URL" required>
                                                             </div>
 
-                                                           
-
-                                                           
-
                                                             <div class="form-group col-md-6">
+                                                                <input type="number" class="form-control" name="offers"
+                                                                    id="offers" placeholder="What type of offers do you run the most?" required>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <input type="number" class="form-control" name="payout"
+                                                                    id="payout" placeholder="Average payout from all networks" required>
+                                                            </div>
+                                                           
+<!-- 
+                                                            <div class="form-group col-md-6">
+                                                                
                                                                 <select id="cars" class="form-control" name="question1">
 
                                                                     <option
@@ -348,7 +355,7 @@ if(isset($_POST['submit_a'])){
                                                                         value="Top affiliate networks you work with">Top
                                                                         affiliate networks you work with</option>
                                                                 </select>
-                                                            </div>
+                                                            </div> -->
 
                                                             <div class="form-group col-md-12 text-center">
                                                             <input type="checkbox" id="checkbox"  name="check_box"
@@ -432,16 +439,17 @@ if(isset($_POST['submit_a'])){
                                                                 <input type="email" class="form-control" name="model_id"
                                                                     id="model_id" placeholder="Model" required>
                                                             </div>
-                                                            <p class="text-p text-center"> Already a member? <b><a href="login.php">Log
-                                                                    in</a></b> here.</p>
 
                                                             <div class="form-group col-md-12 text-center">
+                                                            <span class="align-middle">
                                                                 <input type="checkbox" id="checkbox"  name="check_box"
                                                                     value="I agree to the Terms and Conditions.">
+                                                                    
                                                                 <label for="check_box"> I agree to the <b>
                                                                         <a data-toggle="modal"
                                                                             data-target="#myModal">Terms and
-                                                                            Conditions.</a> </label><br>
+                                                                            Conditions.</a> </label>
+                                                                            </span><br>
                                                             </div>
                                                             
                                                         </div>
