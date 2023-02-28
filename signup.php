@@ -148,16 +148,11 @@ if(isset($_POST['submit_a'])){
                                 <div class="tab-pane active" id="1a">
                                     <div class="signup">
                                         <div class="row">
-                                         
                                             <div class="col-lg-12 col-xs-12 floating-column">
-
                                                 <div class="align-items-stretch">
-
-
                                                     <form action="signup.php" method="post" role="form" class="php-email-form" >
                                                         <div class="row">
                                                             <h2>Contact Details</h2>
-
                                                             <div class="form-group col-md-6">
                                                                 <input type="text" name="first_name" class="form-control"
                                                                     id="first_name" placeholder="First Name" required>
@@ -166,12 +161,10 @@ if(isset($_POST['submit_a'])){
                                                                 <input type="text" class="form-control" name="last_name"
                                                                     id="last_name" placeholder="Last Name" required>
                                                             </div>
-
                                                             <div class="form-group col-md-6">
                                                                 <input type="email" class="form-control" name="email_id"
-                                                                    id="email" placeholder="Email" required>
+                                                                    id="email" placeholder="E-mail" required>
                                                             </div>
-
                                                             <div class="form-group col-md-6">
                                                                 <input type="password" class="form-control" name="password"
                                                                     id="password" placeholder="Password" required>
@@ -182,78 +175,54 @@ if(isset($_POST['submit_a'])){
                                                             </div>
                                                             <div class="form-group col-md-6">
                                                                 <input type="text" class="form-control" name="company_name"
-                                                                    id="company_name" placeholder="Company/Individual/Website Name" required>
+                                                                    id="company_name" placeholder="Company Name" required>
                                                             </div>
-
-
                                                             <div class="form-group col-md-12">
                                                                 <h2>Mailing Address</h2>
                                                             </div>
-
                                                             <div class="form-group col-md-6">
                                                                 <input type="text" class="form-control" name="address_line_1"
                                                                     id="address_line_1" placeholder="Address Line 1" required>
                                                             </div>
-
                                                             <div class="form-group col-md-6">
                                                                 <input type="text" class="form-control" name="address_line_2"
                                                                     id="address_line_2" placeholder="Address Line 2" required>
                                                             </div>
                                                             <div class="form-group col-md-6">
-                                                                <input type="number" class="form-control" name="postal_code"
+                                                                <input type="text" class="form-control" name="postal_code"
                                                                     id="number" placeholder="Zip/Postal Code" required>
                                                             </div>
                                                             <div class="form-group col-md-6">
-                                                                <select id="cars" class="form-control" name="country" required>
-
-                                                                    <option value="volvo"> Country</option>
-                                                                    <option value="India">India</option>
-                                                                    <option value="United States">United States</option>
-                                                                    <option value="United Arab Emirates">United Arab
-                                                                        Emirates</option>
-                                                                    <option value="United Kingdom">United Kingdom
-                                                                    </option>
-                                                                </select>
+                                                                <input type="text" class="form-control" name="country"
+                                                                id="country" placeholder="Country" required>
                                                             </div>
-
                                                             <div class="form-group col-md-6">
                                                                 <input type="text" class="form-control" name="city"
                                                                     id="city" placeholder="City" required>
                                                             </div>
-
-                                                          
-
-                                                            
                                                             <div class="form-group col-md-6">
                                                                 <input type="tel" class="form-control" name="phone"
                                                                     id="phone" placeholder="Phone Number" required>
                                                             </div>
-
-
-
                                                             <div class="form-group col-md-12">
                                                                 <h2>Additional Information</h2>
                                                             </div>
-
                                                             <div class="form-group col-md-6">
                                                                 <input type="text" class="form-control" name="skype_id"
                                                                     id="skype_id" placeholder="Skype ID" required>
                                                             </div>
-
                                                             <div class="form-group col-md-6">
                                                                 <input type="text" class="form-control" name="linkedin_url"
                                                                     id="linkedin_url" placeholder="Linkedin URL" required>
                                                             </div>
-
                                                             <div class="form-group col-md-6">
-                                                                <input type="number" class="form-control" name="offers"
+                                                                <input type="text" class="form-control" name="offers"
                                                                     id="offers" placeholder="What type of offers do you run the most?" required>
                                                             </div>
                                                             <div class="form-group col-md-6">
-                                                                <input type="number" class="form-control" name="payout"
+                                                                <input type="text" class="form-control" name="payout"
                                                                     id="payout" placeholder="Average payout from all networks" required>
                                                             </div>
-                                                           
 <!-- 
                                                             <div class="form-group col-md-6">
                                                                 
@@ -411,32 +380,33 @@ if(isset($_POST['submit_a'])){
                                                     <form action="signup.php" method="post" role="form"
                                                         class="php-email-form">
                                                         <div class="row">
+                                                        <div class="form-group col-md-6">
+                                                                <input type="text" class="form-control" name="full_name"
+                                                                    id="full_name" placeholder="First name" required>
+                                                            </div>
                                                             <div class="form-group col-md-6">
                                                                 <input type="text" name="login" class="form-control"
-                                                                    id="login" placeholder="Username" required>
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <input type="email" class="form-control" name="password"
-                                                                    id="password" placeholder="Password" required>
-                                                            </div>
-                                                            <div class="form-group col-md-6">
-                                                                <input type="email" class="form-control" name="full_name"
-                                                                    id="full_name" placeholder="Full name" required>
+                                                                    id="login" placeholder="Last Name" required>
                                                             </div>
                                                             <div class="form-group col-md-6">
                                                                 <input type="email" class="form-control" name="email_id"
                                                                     id="email_id" placeholder="E-mail" required>
                                                             </div>
                                                             <div class="form-group col-md-6">
-                                                                <input type="email" class="form-control" name="skype_id"
+                                                                <input type="passwors" class="form-control" name="password"
+                                                                    id="password" placeholder="Password" required>
+                                                            </div>
+
+                                                            <div class="form-group col-md-6">
+                                                                <input type="text" class="form-control" name="skype_id"
                                                                     id="skype_id" placeholder="Skype ID" required>
                                                             </div>
                                                             <div class="form-group col-md-6">
-                                                                <input type="email" class="form-control" name="company_type"
-                                                                    id="company_type" placeholder="Company Type" required>
+                                                                <input type="text" class="form-control" name="company_type"
+                                                                    id="company_type" placeholder="Company" required>
                                                             </div>
                                                             <div class="form-group col-md-12">
-                                                                <input type="email" class="form-control" name="model_id"
+                                                                <input type="text" class="form-control" name="model_id"
                                                                     id="model_id" placeholder="Model" required>
                                                             </div>
 

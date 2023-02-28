@@ -139,7 +139,7 @@ include 'important-link.php';
                             data-aos="fade-up" data-aos-delay="200">
                             <h1 class="white">Ready To start your journey?</h1>
                         </div>
-                        <div class="col-lg-6 " >
+                        <div class="col-lg-12 " >
                             <div class="">
                                 <div class="ul-btn">
                                     <ul>

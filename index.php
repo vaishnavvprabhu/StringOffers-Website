@@ -94,10 +94,12 @@ include 'important-link.php';
 
                     <div class="align-items">
                         <p>
+                            <br>
                         String Offers is a leading CPA network and affiliate marketing platform, providing access to a wide range of products from top brands. Our user-friendly interface, real-time tracking, and dedicated support help users succeed in their affiliate marketing efforts and grow their businesses. Our ultimate goal is to empower our users to achieve financial growth through affiliate marketing.
                         </p>
-                        <br><br>
+                        <br>
                         <a href="about-us.php" class="btn-get-started scrollto mt-5">Read More</a>
+                        <br><br>
                     </div>
                 </div>
 
@@ -320,7 +322,7 @@ include 'blog-view.php';
 
                                         <div class="form-group col-md-12">
                                             <input type="email" class="form-control" name="email" id="email"
-                                                placeholder="Email" required="">
+                                                placeholder="E-mail" required="">
                                         </div>
 
 
@@ -329,7 +331,7 @@ include 'blog-view.php';
                                             <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
                                         </div>
                                         <div class="form-group col-md-12">
-                                            <textarea name="" id="" cols="30" rows="4"></textarea>
+                                            <textarea name="Message" class="form-control" placeholder="Message" id="" cols="30" rows="4"></textarea>
                                         </div>
 
 
@@ -341,7 +343,7 @@ include 'blog-view.php';
                                     <div class="form-group col-md-12" style="padding:10px 0px;">
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                         <label for="vehicle1"> I agree to the <b> <a href="privacy-policy.php" sdata-toggle="modal"
-                                                    data-target="#myModal"> Privacy Policy</a></b></label><br>
+                                                    data-target="#myModal"> Terms & Conditions</a></b></label><br>
                                     </div>
                                     <div class="">
                                         <button class="btn-get-started scrollto" type="submit" data-toggle="modal"
@@ -371,7 +373,7 @@ include 'blog-view.php';
                             <h1 class="white">Ready To start your journey?</h1>
                         </div>
 
-                        <div class="col-lg-6 " >
+                        <div class="col-lg-12 " >
                             <div class="">
                                 <div class="ul-btn">
                                     <ul>

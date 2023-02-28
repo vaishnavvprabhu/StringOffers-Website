@@ -6,7 +6,9 @@ include 'important-link.php'
     <div class="container">
         <div class="row">
             <div class="col-lg-4 offset-lg-4 mt-5">
-                <h2 class="me-auto">Welcome Back!</h2>
+                <center>
+                <h2 class="me-auto ">Welcome Back!</h2>
+                </center>
                 <div id="exTab1" class="container text-center mt-5">
                     <ul class="nav nav-pills">
                         <!-- <li class="active">
@@ -75,10 +77,7 @@ include 'important-link.php'
                                                         Forgot Password?</a>
                                                 </div>
                                                 <div class=""><button type="submit">Submit</button></div>
-
                                             </form>
-
-                                            
                                         </div>
                                     </div>
 
