@@ -7,8 +7,21 @@ include 'sideber.php';
 
 <div class="main-panel">
     <div class="content-wrapper">
+        
+
         <div class="page-header">
-            <h2 class="page-title">Publisher Profile</h2>
+            <h2 class="page-title">
+            Publisher Profile<br>
+                
+            </h2>
+
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item active dashboard-logo" aria-current="page">
+                        <span></span><img src="assets/images/blacklogo.png" class="img-fluid ">
+                    </li>
+                </ul>
+            </nav>
         </div>
 
         <div class="row">
@@ -33,9 +46,9 @@ include 'sideber.php';
                                                 </div>
                                                 <div class="col-8 profile ">
                                                     <div class="">
-                                                        <button class="btn btn-block btn-lg btn-gradient-primary">Change Profile Picture</button>
-                                                        <button class="btn btn-block btn-lg btn-gradient-primary">Change Password</button>
-                                                        <button class="btn btn-block btn-lg btn-gradient-primary">Log Out</button>
+                                                        <button class="btn btn-block  btn-w gradient" > Change Profile Picture</button>
+                                                        <button class="btn btn-block  btn-w gradient" data-toggle="modal" data-target="#passwordch">Change Password</button>
+                                                        <button class="btn btn-block  btn-w gradient">Log Out</button>
                                                     </div>
                                                 </div>
                                             </div>

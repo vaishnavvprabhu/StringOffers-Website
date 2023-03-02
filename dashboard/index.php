@@ -19,9 +19,8 @@ include 'sideber.php';
 
             <nav aria-label="breadcrumb">
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">
-                        <span></span>Overview <i
-                            class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                    <li class="breadcrumb-item active dashboard-logo" aria-current="page">
+                        <span></span><img src="assets/images/blacklogo.png" class="img-fluid ">
                     </li>
                 </ul>
             </nav>
@@ -30,7 +29,7 @@ include 'sideber.php';
         <div class="row">
 
 
-            <div class="col-md-6 grid-margin stretch-card">
+            <div class="col-md-6 ">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Campaigns</h4>
@@ -47,16 +46,17 @@ include 'sideber.php';
                             <p>3<br>Rejected</p>
                         </div>
                     </div>
-                    <div class="row p-10">
-                        <div class="col-lg-12">
-                            <p>26.3K Impressions</p>
-                        </div>
-
-                    </div>
+                    
                 </div>
-
+                <div class="card">
+                <div class="bg-blue">
+                        <p><span>26.3K</span>  Total Impressions</p>
+                </div>
+                </div>
+                
             </div>
-            <div class="col-md-6 grid-margin stretch-card">
+            
+            <div class="col-md-6 ">
                 <div class="card">
                     <div class="card-body">
                         <div class="clearfix">
@@ -89,12 +89,12 @@ include 'sideber.php';
                         </div>
 
                     </div>
-                    <div class="row p-10">
-                        <div class="col-lg-12">
-                            <p>17.2 Conversions</p>
-                        </div>
-
-                    </div>
+                   
+                </div>
+                <div class="card" style="margin-top:6px;">
+                <div class="bg-blue">
+                        <p><span>17.2 </span>  Total Conversions</p>
+                </div>
                 </div>
 
             </div>
@@ -106,9 +106,8 @@ include 'sideber.php';
 
 
 
- 
 
-<div class="row">
+        <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
                 <div class="col-md-12 ml-auto mr-auto">
                     <div class="">
@@ -124,7 +123,9 @@ include 'sideber.php';
                                         </div>
                                         <div class="col-6 ">
                                             <div class="pull-right">
-                                                <button class="btn btn-block btn-lg btn-gradient-primary" id="download_excel">Download Excel</button>
+                                                <form action="export.php" method="Post">
+                                                    <button class="btn btn-block btn-lg btn-gradient-primary" name="publishers">Download Excel</button>
+                                                    </form>
 
                                             </div>
                                         </div>
@@ -151,13 +152,12 @@ include 'sideber.php';
                                                                     <th> Phone No. </th>
                                                                     <th> Skype Id </th>
                                                                     <th> Linkedin url</th>
-                                                                    <th> City </th>
-                                                                    <th> Phone No. </th>
+                                                                   
 
 
                                                                 </tr>
                                                             </thead>
-                                                            <tbody>
+                                                           <tbody>
                                                                  <?php
     $signup_query = "SELECT * FROM signup";
     $signup_result = mysqli_query($conn, $signup_query);
@@ -177,8 +177,7 @@ include 'sideber.php';
                                                                     <td><?php echo $signup['phone']; ?> </td>
                                                                     <td><?php echo $signup['skype_id']; ?> </td>
                                                                     <td><?php echo $signup['linkedin_url']; ?> </td>
-                                                                    <td><?php echo $signup['phone']; ?> </td>
-                                                                    <td><?php echo $signup['skype_id']; ?> </td>
+                                                                    
                                                                     
                                                                     
 
@@ -206,6 +205,11 @@ include 'sideber.php';
         
         
         
+        
+        
+        
+        
+        
         <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
                 <div class="col-md-12 ml-auto mr-auto">
@@ -222,7 +226,9 @@ include 'sideber.php';
                                         </div>
                                         <div class="col-6 ">
                                             <div class="pull-right">
-                                                <button class="btn btn-block btn-lg btn-gradient-primary" id="download_excel">Download Excel</button>
+                                               <form action="export.php" method="Post">
+                                                    <button class="btn btn-block btn-lg btn-gradient-primary" name="advertiser">Download Excel</button>
+                                                    </form>
 
                                             </div>
                                         </div>
@@ -235,19 +241,16 @@ include 'sideber.php';
                                                     <div class="table-responsive">
                                                         <table class="table">
                                                             <thead>
-                                                                <tr>
+                                                                 <tr>
                                                                     <th></th>
                                                                     <th> Full Name </th>
                                                                     <th> Email Id</th>
                                                                     <th> Skype Id </th>
                                                                     <th> Company Type</th>
                                                                     <th> Model Id </th>
-                                                                  
-
-
                                                                 </tr>
                                                             </thead>
-                                                            <tbody>
+                                                           <tbody>
                                                                  <?php
     $signup_a_query = "SELECT * FROM signup_a";
     $signup_a_result = mysqli_query($conn, $signup_a_query);
@@ -292,6 +295,11 @@ include 'sideber.php';
 
 
 
+ <!--contact form enquiry -->
+        
+        
+        
+        
         <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
                 <div class="col-md-12 ml-auto mr-auto">
@@ -304,12 +312,13 @@ include 'sideber.php';
                                 <div class="tab-pane active" id="home1" role="tabpanel">
                                     <div class="row bg-color">
                                         <div class="col-6 ">
-                                            <h4>Featured Campaigns</h4>
+                                            <h4>Contact Form</h4>
                                         </div>
                                         <div class="col-6 ">
                                             <div class="pull-right">
-                                                <button class="btn btn-block btn-lg btn-gradient-primary">View
-                                                    More</button>
+                                                 <form action="export.php" method="Post">
+                                                    <button class="btn btn-block btn-lg btn-gradient-primary" name="contact_form">Download Excel</button>
+                                                    </form>
 
                                             </div>
                                         </div>
@@ -322,37 +331,37 @@ include 'sideber.php';
                                                     <div class="table-responsive">
                                                         <table class="table">
                                                             <thead>
-                                                                <tr>
+                                                                 <tr>
                                                                     <th></th>
-                                                                    <th> Name </th>
-                                                                    <th> Category </th>
-                                                                    <th> Payout </th>
-
-
+                                                                    <th> Full Name </th>
+                                                                    <th> Email Id</th>
+                                                                    <th> Subject</th>
+                                                                    <th> Message</th>
+                                                                    <!--<th> Model Id </th>-->
                                                                 </tr>
                                                             </thead>
-                                                            <tbody>
+                                                           <tbody>
+                                                                 <?php
+    $contact_form_query = "SELECT * FROM contact_form";
+    $contact_form_result = mysqli_query($conn, $contact_form_query);
+    while($contact_form = mysqli_fetch_array($contact_form_result)){
+       ?>
                                                                 <tr>
                                                                     <th><input type="checkbox"></th>
-                                                                    <td> Campaign 1</td>
-                                                                    <td> catagory 1 </td>
-                                                                    <td> Payout Amount </td>
+                                                                    <td> <?php echo $contact_form['name']; ?></td>
+                                                                    <td><?php echo $contact_form['email_id']; ?> </td>
+                                                                    <td><?php echo $contact_form['subject']; ?> </td>
+                                                                    <td><?php echo $contact_form['message']; ?> </td>
+                                                                    
+                                                                   
+                                                                    
+                                                                    
 
                                                                 </tr>
-                                                                <tr>
-                                                                    <th><input type="checkbox"></th>
-                                                                    <td> Campaign 2</td>
-                                                                    <td> catagory 2 </td>
-                                                                    <td> Payout Amount </td>
-
-                                                                </tr>
-                                                                <tr>
-                                                                    <th><input type="checkbox"></th>
-                                                                    <td> Campaign 3</td>
-                                                                    <td> catagory 3 </td>
-                                                                    <td> Payout Amount </td>
-
-                                                                </tr>
+                                                                <?php
+} 
+?>
+                                                            
                                                             </tbody>
                                                         </table>
                                                     </div>
@@ -369,6 +378,15 @@ include 'sideber.php';
                 </div>
             </div>
         </div>
+        
+        
+        
+        
+         <!--FAQ's form enquiry -->
+        
+        
+        
+        
         <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
                 <div class="col-md-12 ml-auto mr-auto">
@@ -381,13 +399,13 @@ include 'sideber.php';
                                 <div class="tab-pane active" id="home1" role="tabpanel">
                                     <div class="row bg-color">
                                         <div class="col-6 ">
-                                            <h4>Active Campaigns</h4>
+                                            <h4>FAQ's Form</h4>
                                         </div>
                                         <div class="col-6 ">
                                             <div class="pull-right">
-                                                <button class="btn btn-block btn-lg btn-gradient-primary">View
-                                                    All</button>
-
+                                                <form action="export.php" method="Post">
+                                                    <button class="btn btn-block btn-lg btn-gradient-primary" name="faqs_enquiry">Download Excel</button>
+                                                    </form>
                                             </div>
                                         </div>
                                     </div>
@@ -399,37 +417,37 @@ include 'sideber.php';
                                                     <div class="table-responsive">
                                                         <table class="table">
                                                             <thead>
-                                                                <tr>
+                                                                 <tr>
                                                                     <th></th>
-                                                                    <th> Name </th>
-                                                                    <th> Campaign Type</th>
-                                                                    <th> Payout </th>
-
-
+                                                                    <th> Full Name </th>
+                                                                    <th> Email Id</th>
+                                                                    <th> Subject</th>
+                                                                    <th> Describe your problem here</th>
+                                                                    <!--<th> Model Id </th>-->
                                                                 </tr>
                                                             </thead>
-                                                            <tbody>
+                                                           <tbody>
+                                                                 <?php
+    $faqs_enquiry_query = "SELECT * FROM faqs_enquiry";
+    $faqs_enquiry_result = mysqli_query($conn, $faqs_enquiry_query);
+    while($faqs_enquiry = mysqli_fetch_array($faqs_enquiry_result)){
+       ?>
                                                                 <tr>
                                                                     <th><input type="checkbox"></th>
-                                                                    <td> Campaign 1</td>
-                                                                    <td> catagory 1 </td>
-                                                                    <td> Payout Amount </td>
+                                                                    <td> <?php echo $faqs_enquiry['name']; ?></td>
+                                                                    <td><?php echo $faqs_enquiry['email_id']; ?> </td>
+                                                                    <td><?php echo $faqs_enquiry['subject']; ?> </td>
+                                                                    <td><?php echo $faqs_enquiry['message']; ?> </td>
+                                                                    
+                                                                   
+                                                                    
+                                                                    
 
                                                                 </tr>
-                                                                <tr>
-                                                                    <th><input type="checkbox"></th>
-                                                                    <td> Campaign 2</td>
-                                                                    <td> catagory 2 </td>
-                                                                    <td> Payout Amount </td>
-
-                                                                </tr>
-                                                                <tr>
-                                                                    <th><input type="checkbox"></th>
-                                                                    <td> Campaign 3</td>
-                                                                    <td> catagory 3 </td>
-                                                                    <td> Payout Amount </td>
-
-                                                                </tr>
+                                                                <?php
+} 
+?>
+                                                            
                                                             </tbody>
                                                         </table>
                                                     </div>
@@ -446,6 +464,14 @@ include 'sideber.php';
                 </div>
             </div>
         </div>
+        
+        
+        
+        
+        
+        
+
+
 
 
     </div>

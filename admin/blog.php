@@ -7,8 +7,21 @@ include 'sideber.php';
 
 <div class="main-panel">
     <div class="content-wrapper">
+        
+
         <div class="page-header">
-            <h2 class="page-title">Blog</h2>
+            <h2 class="page-title">
+            Blog <br>
+                
+            </h2>
+
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item active dashboard-logo" aria-current="page">
+                        <span></span><img src="assets/images/blacklogo.png" class="img-fluid ">
+                    </li>
+                </ul>
+            </nav>
         </div>
 
         <div class="row">
@@ -20,17 +33,14 @@ include 'sideber.php';
 
                         <div class="">
                             <ul class="nav nav-tabs nav-tabs-neutral " role="tablist" data-background-color="orange">
-                                <li class="nav-item nav-item-w">
+                                <li class="nav-item nav-item-w nav-item-w2">
                                     <a class="nav-link active" data-toggle="tab" href="#home1" role="tab">Recent Blog
                                         Posts</a>
                                 </li>
-                                <li class="nav-item nav-item-w">
+                                <li class="nav-item nav-item-w nav-item-w2">
                                     <a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Drafts</a>
                                 </li>
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#messages1" role="tab">Campaign
-                                        Request</a>
-                                </li> -->
+                               
                             </ul>
                         </div>
 

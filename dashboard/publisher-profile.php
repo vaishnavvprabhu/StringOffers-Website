@@ -7,8 +7,22 @@ include 'sideber.php';
 
 <div class="main-panel">
     <div class="content-wrapper">
+       
+
+
         <div class="page-header">
-            <h2 class="page-title">Publisher Profile</h2>
+            <h2 class="page-title">
+            Publisher Profile<br>
+                
+            </h2>
+
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item active dashboard-logo" aria-current="page">
+                        <span></span><img src="assets/images/blacklogo.png" class="img-fluid ">
+                    </li>
+                </ul>
+            </nav>
         </div>
 
         <div class="row">
@@ -33,12 +47,14 @@ include 'sideber.php';
                                                 </div>
                                                 <div class="col-8 profile ">
                                                     <div class="">
-                                                        <button class="btn btn-block btn-lg btn-gradient-primary">Change
-                                                            Profile Picture</button>
-                                                        <button class="btn btn-block btn-lg btn-gradient-primary"
+       
+       <button class="btn btn-block btn-lg btn-w gradient"
+                                                            data-toggle="modal" data-target="#change_profile_picture">Change Profile Picture</button>
+                                                        <button class="btn btn-block btn-lg btn-w gradient"
                                                             data-toggle="modal" data-target="#passwordch">Change
                                                             Password</button>
-                                                        <button class="btn btn-block btn-lg btn-gradient-primary">Log
+                                                            
+                                                        <button class="btn btn-block btn-lg btn-w gradient">Log
                                                             Out</button>
                                                     </div>
                                                 </div>
@@ -105,9 +121,9 @@ include 'sideber.php';
                                                             </div>
                                                             <div class="form-group col-6">
                                                                 <button
-                                                                    class="btn btn-block btn-lg btn-gradient-primary">Save</button>
+                                                                    class="btn btn-block btn-lg btn-gradient-primary btn-w">Save</button>
                                                                 <button
-                                                                    class="btn btn-block btn-lg btn-gradient-primary">Discard
+                                                                    class="btn btn-block btn-lg gradient btn-w">Discard
                                                                     Changes</button>
                                                                 <br><br>
                                                                 <p><input type="checkbox" id="vehicle1" name="vehicle1"
@@ -196,7 +212,43 @@ include 'sideber.php';
     </div>
 </div>
 
+<!-- change password name  -->
+<div id="change_profile_picture" class="modal fade" role="dialog">
+    <div class="modal-dialog">
 
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h4 class="modal-title"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body text-center">
+                <h2>Change Profile Picture</h2>
+            </div>
+
+            <form action="" class="p-10">
+                
+                
+                <div class="row">
+                    <div class="form-group col-12">
+                        <input type="file" name="change_profile_picture" class="form-control">
+                    </div>
+                </div>
+                <div class="mb-5 pl-5">
+                <center>
+
+                    <button type="button" class="btn btn-block btn-lg btn-gradient-primary" 
+                        name="change_profile_picture">Save</button>
+                </center>
+            </div>
+            </form>
+
+            
+        </div>
+
+    </div>
+</div>
 
 
 

@@ -7,8 +7,20 @@ include 'sideber.php';
 
 <div class="main-panel">
     <div class="content-wrapper">
+       
         <div class="page-header">
-            <h2 class="page-title">Campaigns</h2>
+            <h2 class="page-title">
+            Campaigns<br>
+                
+            </h2>
+
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item active dashboard-logo" aria-current="page">
+                        <span></span><img src="assets/images/blacklogo.png" class="img-fluid ">
+                    </li>
+                </ul>
+            </nav>
         </div>
 
         <div class="row">
@@ -126,9 +138,9 @@ include 'sideber.php';
 
                                     </div>
                                     <div class="col-6">
-                                    <button class="btn btn-block btn-lg btn-gradient-primary"><i
+                                    <button class="btn btn-block btn-lg update-btn"><i
                                                         class="mdi mdi-link"></i> Add Zip Code Coverage</button>
-                                                <button class="btn btn-block btn-lg btn-gradient-primary"><i
+                                                <button class="btn btn-block btn-lg update-btn"><i
                                                         class="mdi mdi-link"></i> Add Campaign Keywords </button>
                                     </div>
                                 </div>

@@ -28,7 +28,7 @@ include 'important-link.php'
                                                 <div class="row">
                                                     <div class="form-group col-md-12">
                                                         <input type="text" name="name" class="form-control" id="name"
-                                                            placeholder="Username" required>
+                                                            placeholder="E-mail/Username" required>
                                                     </div>
                                                     <div class="form-group col-md-12">
                                                         <input type="email" class="form-control" name="email" id="email"

@@ -9,7 +9,16 @@ include 'sideber.php';
     <div class="content-wrapper">
         <div class="page-header">
             <h2 class="page-title">Campaigns</h2>
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item active dashboard-logo" aria-current="page">
+                        <span></span><img src="assets/images/blacklogo.png" class="img-fluid ">
+                    </li>
+                </ul>
+            </nav>
         </div>
+
+
 
         <div class="row">
 
@@ -18,18 +27,17 @@ include 'sideber.php';
                 <div class="col-md-12 ml-auto mr-auto">
                     <div class="">
 
-                    <div class="">
+                        <div class="">
                             <ul class="nav nav-tabs nav-tabs-neutral " role="tablist" data-background-color="orange">
-                                <li class="nav-item nav-item-w">
-                                    <a class="nav-link active" data-toggle="tab" href="#home1" role="tab">All campaigns</a>
+                                <li class="nav-item nav-item-w nav-item-w2">
+                                    <a class="nav-link active" data-toggle="tab" href="#home1" role="tab">All
+                                        campaigns</a>
                                 </li>
-                                <li class="nav-item nav-item-w">
-                                    <a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Paused Campaigns</a>
+                                <li class="nav-item nav-item-w nav-item-w2">
+                                    <a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Paused
+                                        Campaigns</a>
                                 </li>
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#messages1" role="tab">Campaign
-                                        Request</a>
-                                </li> -->
+                                
                             </ul>
                         </div>
 
@@ -51,8 +59,9 @@ include 'sideber.php';
 
                                                 <button class="btn btn-block btn-lg btn-gradient-primary"><i
                                                         class="mdi mdi-delete"></i></button>
-                                                <a href="create-campaigns.php"><button class="btn btn-block btn-lg btn-gradient-primary">Create
-                                                    Campaign</button></a>
+                                                <a href="create-campaigns.php"><button
+                                                        class="btn btn-block btn-lg btn-gradient-primary">Create
+                                                        Campaign</button></a>
                                             </div>
                                         </div>
                                     </div>

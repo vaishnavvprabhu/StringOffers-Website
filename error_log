@@ -1,0 +1,56 @@
+[28-Feb-2023 10:09:48 UTC] PHP Warning:  Undefined array key "question1" in /home2/stringoffers/dev.stringoffers.com/signup.php on line 31
+[28-Feb-2023 10:09:48 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/signup.php on line 31
+[28-Feb-2023 10:09:48 UTC] PHP Warning:  Undefined array key "question2" in /home2/stringoffers/dev.stringoffers.com/signup.php on line 32
+[28-Feb-2023 10:09:48 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/signup.php on line 32
+[28-Feb-2023 10:09:48 UTC] PHP Warning:  Undefined array key "question3" in /home2/stringoffers/dev.stringoffers.com/signup.php on line 33
+[28-Feb-2023 10:09:48 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/signup.php on line 33
+[28-Feb-2023 10:09:48 UTC] PHP Warning:  Undefined array key "question4" in /home2/stringoffers/dev.stringoffers.com/signup.php on line 34
+[28-Feb-2023 10:09:48 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/signup.php on line 34
+[28-Feb-2023 10:10:32 UTC] PHP Warning:  Undefined array key "question1" in /home2/stringoffers/dev.stringoffers.com/signup.php on line 31
+[28-Feb-2023 10:10:32 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/signup.php on line 31
+[28-Feb-2023 10:10:32 UTC] PHP Warning:  Undefined array key "question2" in /home2/stringoffers/dev.stringoffers.com/signup.php on line 32
+[28-Feb-2023 10:10:32 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/signup.php on line 32
+[28-Feb-2023 10:10:32 UTC] PHP Warning:  Undefined array key "question3" in /home2/stringoffers/dev.stringoffers.com/signup.php on line 33
+[28-Feb-2023 10:10:32 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/signup.php on line 33
+[28-Feb-2023 10:10:32 UTC] PHP Warning:  Undefined array key "question4" in /home2/stringoffers/dev.stringoffers.com/signup.php on line 34
+[28-Feb-2023 10:10:32 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/signup.php on line 34
+[28-Feb-2023 10:14:20 UTC] PHP Warning:  Undefined variable $offers in /home2/stringoffers/dev.stringoffers.com/signup.php on line 39
+[28-Feb-2023 10:14:20 UTC] PHP Warning:  Undefined variable $payout in /home2/stringoffers/dev.stringoffers.com/signup.php on line 39
+[28-Feb-2023 10:14:43 UTC] PHP Warning:  Undefined variable $offers in /home2/stringoffers/dev.stringoffers.com/signup.php on line 39
+[28-Feb-2023 10:14:43 UTC] PHP Warning:  Undefined variable $payout in /home2/stringoffers/dev.stringoffers.com/signup.php on line 39
+[28-Feb-2023 10:15:43 UTC] PHP Warning:  Undefined variable $offers in /home2/stringoffers/dev.stringoffers.com/signup.php on line 39
+[28-Feb-2023 10:15:43 UTC] PHP Warning:  Undefined variable $payout in /home2/stringoffers/dev.stringoffers.com/signup.php on line 39
+[28-Feb-2023 11:14:55 UTC] PHP Parse error:  Unmatched '}' in /home2/stringoffers/dev.stringoffers.com/index.php on line 37
+[28-Feb-2023 11:15:00 UTC] PHP Parse error:  Unmatched '}' in /home2/stringoffers/dev.stringoffers.com/index.php on line 37
+[28-Feb-2023 11:15:49 UTC] PHP Warning:  Undefined variable $conn in /home2/stringoffers/dev.stringoffers.com/index.php on line 12
+[28-Feb-2023 11:15:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/stringoffers/dev.stringoffers.com/index.php:12
+Stack trace:
+#0 /home2/stringoffers/dev.stringoffers.com/index.php(12): mysqli_real_escape_string(NULL, 'Lillith Mills')
+#1 {main}
+  thrown in /home2/stringoffers/dev.stringoffers.com/index.php on line 12
+[28-Feb-2023 11:18:36 UTC] PHP Warning:  Undefined variable $conn in /home2/stringoffers/dev.stringoffers.com/index.php on line 12
+[28-Feb-2023 11:18:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/stringoffers/dev.stringoffers.com/index.php:12
+Stack trace:
+#0 /home2/stringoffers/dev.stringoffers.com/index.php(12): mysqli_real_escape_string(NULL, 'Lillith Mills')
+#1 {main}
+  thrown in /home2/stringoffers/dev.stringoffers.com/index.php on line 12
+[28-Feb-2023 11:18:53 UTC] PHP Warning:  Undefined variable $conn in /home2/stringoffers/dev.stringoffers.com/index.php on line 12
+[28-Feb-2023 11:18:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home2/stringoffers/dev.stringoffers.com/index.php:12
+Stack trace:
+#0 /home2/stringoffers/dev.stringoffers.com/index.php(12): mysqli_real_escape_string(NULL, 'TaShya English')
+#1 {main}
+  thrown in /home2/stringoffers/dev.stringoffers.com/index.php on line 12
+[28-Feb-2023 11:20:07 UTC] PHP Warning:  Undefined array key "email_id" in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:20:07 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:20:22 UTC] PHP Warning:  Undefined array key "email_id" in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:20:22 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:22:34 UTC] PHP Warning:  Undefined array key "email_id" in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:22:34 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:24:37 UTC] PHP Warning:  Undefined array key "email_id" in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:24:37 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:24:42 UTC] PHP Warning:  Undefined array key "email_id" in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:24:42 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:24:46 UTC] PHP Warning:  Undefined array key "email_id" in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:24:46 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:24:51 UTC] PHP Warning:  Undefined array key "email_id" in /home2/stringoffers/dev.stringoffers.com/index.php on line 14
+[28-Feb-2023 11:24:51 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home2/stringoffers/dev.stringoffers.com/index.php on line 14

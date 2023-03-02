@@ -16,7 +16,7 @@ include 'important-link.php'
        <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="publisher.php">Publisher</a></li>
+          <li><a class="nav-link scrollto" href="publisher.php">Publisher</a></li>
           <li><a class="nav-link scrollto" href="advertiser.php">Advertiser</a></li>
           <li><a class="nav-link scrollto" href="faqs.php">FAQs</a></li>
           <li><a class="nav-link scrollto" href="about-us.php">About Us</a></li>

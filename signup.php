@@ -28,15 +28,15 @@ if(isset($_POST['submit_p'])){
     
     $skype_id = mysqli_real_escape_string($conn, $_POST['skype_id']);
     $linkedin_url = mysqli_real_escape_string($conn, $_POST['linkedin_url']);
-    $question1 = mysqli_real_escape_string($conn, $_POST['question1']);
-    $question2 = mysqli_real_escape_string($conn, $_POST['question2']);
-    $question3 = mysqli_real_escape_string($conn, $_POST['question3']);
-    $question4 = mysqli_real_escape_string($conn, $_POST['question4']);
+    $offers = mysqli_real_escape_string($conn, $_POST['offers']);
+    $payout = mysqli_real_escape_string($conn, $_POST['payout']);
+    // $question3 = mysqli_real_escape_string($conn, $_POST['question3']);
+    // $question4 = mysqli_real_escape_string($conn, $_POST['question4']);
     
     $check_box = mysqli_real_escape_string($conn, $_POST['check_box']);
     //  insert qurey in datatable code
-    $query =  "INSERT INTO signup (first_name,last_name,email_id,password,legal_entity_type,company_name,address_line_1,address_line_2,postal_code,country,city,phone,skype_id,linkedin_url,question1,question2,question3,question4,check_box) 
-    VALUES ('$first_name','$last_name','$email_id','$password','$legal_entity_type','$company_name','$address_line_1','$address_line_1','$postal_code','$country','$city','$phone','$skype_id','$linkedin_url','$question1','$question2','$question3','$question4','$check_box')";
+    $query =  "INSERT INTO signup (first_name,last_name,email_id,password,legal_entity_type,company_name,address_line_1,address_line_2,postal_code,country,city,phone,skype_id,linkedin_url,offers,payout,check_box) 
+    VALUES ('$first_name','$last_name','$email_id','$password','$legal_entity_type','$company_name','$address_line_1','$address_line_1','$postal_code','$country','$city','$phone','$skype_id','$linkedin_url','$offers','$payout','$check_box')";
     $query_run = mysqli_query($conn, $query);
                     if($query_run>0)
                     {
@@ -105,7 +105,7 @@ if(isset($_POST['submit_a'])){
     <div class="row">
         <div class="col-lg-12 text-center d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 "
             data-aos="fade-up" data-aos-delay="200">
-            <h1>Join us as a publisher today.</h1>
+            <h1>Join Us Today</h1>
             <center>
                 <hr class="gradient-line">
             </center>
@@ -326,7 +326,7 @@ if(isset($_POST['submit_a'])){
                                                                 </select>
                                                             </div> -->
 
-                                                            <div class="form-group col-md-12 text-center">
+                                                    <div class="form-group col-md-12 text-center">
                                                             <input type="checkbox" id="checkbox"  name="check_box"
                                                                 value="I agree to the Terms and Conditions. ">
                                                             <label for="vehicle1"> I agree to the <b> <a
@@ -334,7 +334,11 @@ if(isset($_POST['submit_a'])){
                                                                         Terms and
                                                                         Conditions.</a></b></label><br>
                                                         </div>
-                                                        <div class="form-group col-md-12 text-center">
+                                                        
+                                                        
+                                                        
+                                                        <div class="form-group col-md-12 text-center buttonWrap2">
+                                                            <div id="blocker2"></div>
                                                             <button type="submit" id="submit_p" name="submit_p">Submit</button>
                                                                 
                                                                 <!--send OTO button-->
@@ -857,12 +861,58 @@ You can communicate for any reason, whether a complaint or not, with us by phone
         
     </script>
     
+    
+    
+    
+     <script>
+     $(document).ready(function() {
+  
+  // Disable blocker.
+  function unblock() {
+    $("#blocker2").css("display", "none");
+  }
+
+  // Enable blocker.
+  function block() {
+    $("#blocker2").css("display", "block");
+  }
+
+  // Monitor checkbox.
+  $('body').on('click', '#checkbox', function() {
+    if( $(this).prop("checked") ) {
+        unblock();
+    } else {
+        block();
+    }
+  });
+  
+  // Monitor blocker.
+  $('#blocker2').on('click', function() {
+    alert('Please check the box.');
+  });
+});
+        
+    </script>
+    
+    
+    
     <style>
         .buttonWrap {
   position: relative;
 }
 
+      .buttonWrap2 {
+  position: relative;
+}
+
 #blocker {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.7);
+}
+
+#blocker2 {
   position: absolute;
   height: 100%;
   width: 100%;

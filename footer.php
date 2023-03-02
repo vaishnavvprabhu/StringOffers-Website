@@ -51,20 +51,21 @@
                     <div class="footer-ul">
                         <center>
                         <ul>
-                            <li><a href="">FAQ's</a></li>
-                            <li><a href="">Community</a></li>
-                            <li><a href="">Join The Team</a></li>
-                            <li><a href="">Legal Stuff</a></li>
-                            <li><a href="">Terms of services</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="faqs.php">FAQs</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Privacy & Policy</a></li>
+                            <!-- <li><a href="">Terms of services</a></li> -->
                         </ul>
                         </center>
                     </div>
                     <div class="logo">
                      <img src="assets/img/logo.png" class="img-fluid" alt="" style="width:200px;"><br><br>
-                     <p>Pacific Century Place 16/F SCBD Lot 10, Jl. Jend. Sudirman Kav. 52-53, Jakarta 12190</p>
+                     <!-- <p>Pacific Century Place 16/F SCBD Lot 10, Jl. Jend. Sudirman Kav. 52-53, Jakarta 12190</p> -->
                      <a href="#" class="social-icons"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                      <a href="#" class="social-icons"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                     <a href="#" class="social-icons"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                     <a href="#" class="social-icons"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                     <a href="#" class="social-icons"><i class="fa fa-skype" aria-hidden="true"></i></a>
                     </div>
 
                 </div>

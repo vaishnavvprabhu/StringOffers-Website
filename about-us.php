@@ -16,13 +16,10 @@ include 'important-link.php';
                     <div class="">
                         <div class="row ">
                             <h1>About Us</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                <br><br>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum.
+                            <p>String Offers is a leading CPA network and affiliate marketing platform that offers a wide range of high-quality products from top brands to its partners and affiliates. Our user-friendly interface, real-time tracking, and dedicated support help users achieve financial growth through affiliate marketing.
+<br><br>
+We offer the best-performing advertising offers on the internet, with real-time tracking, highest payouts, scheduled payments, and 24/7 professional support. Our ultimate goal is to empower our users to succeed in their affiliate marketing efforts and grow their businesses. Join us today and take your affiliate marketing to the next level!
+
                             </p>
                         </div>
                     </div>
@@ -56,8 +53,8 @@ include 'important-link.php';
                             <div class="col-lg-12 order-1 order-lg-2 text-center" data-aos="zoom-in"
                                 data-aos-delay="200">
                                 <img src="assets/img/Ellipse1.png" class="img-fluid animated about-icon mb-3" alt="">
-                                <h3 class="fsize">Top Performing Offers</h3>
-                                <p>Explore a wide range of products and offers from leading brands</p>
+                                <h3 class="fsize">Quality</h3>
+                                <p>String Offers is committed to providing top-quality products and services to our users, ensuring maximum performance and success in their affiliate marketing efforts.</p>
 
                             </div>
                         </div>
@@ -70,8 +67,8 @@ include 'important-link.php';
                             <div class="col-lg-12 order-1 order-lg-2 text-center" data-aos="zoom-in"
                                 data-aos-delay="200">
                                 <img src="assets/img/Ellipse1.png" class="img-fluid animated about-icon mb-3" alt="">
-                                <h3 class="fsize">Top Performing Offers</h3>
-                                <p>Explore a wide range of products and offers from leading brands</p>
+                                <h3 class="fsize">Innovation</h3>
+                                <p>We are constantly innovating and evolving our platform to stay ahead of the curve, providing our users with the most advanced and effective tools for affiliate marketing success.</p>
 
                             </div>
                         </div>
@@ -84,8 +81,8 @@ include 'important-link.php';
                             <div class="col-lg-12 order-1 order-lg-2 text-center" data-aos="zoom-in"
                                 data-aos-delay="200">
                                 <img src="assets/img/Ellipse1.png" class="img-fluid animated about-icon mb-3" alt="">
-                                <h3 class="fsize">Top Performing Offers</h3>
-                                <p>Explore a wide range of products and offers from leading brands</p>
+                                <h3 class="fsize">Partnership</h3>
+                                <p>At String Offers, we value our relationships with our users and strive to build long-lasting partnerships based on trust, transparency, and mutual success</p>
 
                             </div>
                         </div>
@@ -105,26 +102,14 @@ include 'important-link.php';
            
                     <div class="boxh">
                     <h1>Our Mission</h1><br>
-                    <p>We aim to provide value to affiliates and help them succeed in their affiliate marketing
-                        efforts.
-                        <br><br>
-                        By offering a wide range of top-performing products and offers and the tools and
-                        resources needed to promote them effectively, String Offers can help affiliates earn
-                        money and grow their businesses, while establishing itself as the leading affiliate
-                        marketing platform in the market.
+                    <p>The mission of String Offers is to help affiliates succeed in their affiliate marketing efforts by providing access to high-performing products and offers, a user-friendly interface, real-time tracking, training materials and resources, and a dedicated support team. By meeting this mission, String Offers can help affiliates earn money and grow their businesses through online marketing.
                     </p>
                     </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 bg hieght-h d-flex align-items-center "  data-aos="zoom-in" data-aos-delay="200">
            <div class="boxh">
            <h1>Our Vision</h1>
-                    <p>We aim to provide value to affiliates and help them succeed in their affiliate marketing
-                        efforts.
-                        <br><br>
-                        By offering a wide range of top-performing products and offers and the tools and
-                        resources needed to promote them effectively, String Offers can help affiliates earn
-                        money and grow their businesses, while establishing itself as the leading affiliate
-                        marketing platform in the market.
+                    <p>The vision of String Offers is to become the leading CPA network platform for individuals looking to earn money through online marketing. This involves providing affiliates with access to a wide range of top-performing products and offers from leading brands across various industries, as well as the tools and resources needed to promote them effectively.
                     </p>
            </div>
 </div>
@@ -137,9 +122,9 @@ include 'important-link.php';
                     <div class="row">
                         <div class="col-lg-12 "
                             data-aos="fade-up" data-aos-delay="200">
-                            <h1 class="white">Ready To start your journey?</h1>
+                            <h1 class="white">Ready to start your journey?</h1>
                         </div>
-                        <div class="col-lg-12 " >
+                        <div class="col-lg-6 " >
                             <div class="">
                                 <div class="ul-btn">
                                     <ul>

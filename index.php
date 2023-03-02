@@ -1,9 +1,44 @@
 <?php
 include 'header.php';
 include 'important-link.php';
+include 'database.php';
 
 ?>
 
+
+<?php
+
+if(isset($_POST['submit_h'])){
+    
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $email_id = mysqli_real_escape_string($conn, $_POST['email_id']);
+    $subject = mysqli_real_escape_string($conn, $_POST['name']);
+    $message = mysqli_real_escape_string($conn, $_POST['message']);
+    $checkbox = mysqli_real_escape_string($conn, $_POST['checkbox']);
+    
+     $query =  "INSERT INTO contact_form (name,email_id,subject,message,checkbox) 
+     VALUES ('$name','$email_id','$subject','$message','$checkbox')";
+     
+        $query_run = mysqli_query($conn, $query);
+                    if($query_run>0)
+                    {
+                        echo "<h1 class='text-center'>Thank You for Connecting Get Back To You </h1>";
+                        echo "<script> location.replace('thank-you.php') </script>";
+                        // header('Location:https://stringoffers.com/');
+                        exit(0);
+                    }
+                    else
+                    {
+                        echo "<h1 class='text-center'>please fill the all fields</h1>";
+                        exit(0);
+                    }
+    }
+     
+    
+
+
+
+?>
 
 
     <section id="hero" class="d-flex align-items-center">
@@ -243,21 +278,15 @@ include 'important-link.php';
                                             <div class="col-xs-12 col-sm-6 col-md-4">
                                                 <a href="#" class=""><img src="assets/img/offers3.png"
                                                         class="img-responsive img-fluid center-block"></a>
-
                                             </div>
                                         </div>
-
                                         <div class="item ">
                                             <div class="col-xs-12 col-sm-6 col-md-4">
                                                 <a href="#" class=""><img src="assets/img/offers3.png"
                                                         class="img-responsive img-fluid center-block"></a>
-
                                             </div>
                                         </div>
-
                                     </div>
-
-
                                 </div>
                             </div>
                         </div>
@@ -302,54 +331,51 @@ include 'blog-view.php';
                         <div class="col-lg-6 pr-5">
                             <h1 class="black">Get In Touch</h1>
                             <hr class="gradient-line">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-
-                                Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-                                laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                optio, eaque rerum!
+                            <p>We'd love to hear from you! For any inquiries or questions, please don't hesitate to reach out to our dedicated support team. Simply fill out the contact form or send us an email, and we'll get back to you as soon as possible.
                             </p>
                             <img src="assets/img/contact.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="200">
                             <div class="">
-                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                
+                            <!--home page contact form -->
+                                
+                                
+                                <form action="index.php" method="post" role="form" class="php-email-form">
                                     <div class="row">
-
                                         <div class="form-group col-md-12">
-                                            <input type="email" class="form-control" name="email" id="email"
+                                            <input type="text" class="form-control" name="name" id="name"
                                                 placeholder="Name" required="">
                                         </div>
-
-                                        <div class="form-group col-md-12">
-                                            <input type="email" class="form-control" name="email" id="email"
+                                         <div class="form-group col-md-12">
+                                            <input type="email" class="form-control" name="email_id" id="email_id"
                                                 placeholder="E-mail" required="">
                                         </div>
-
-
-
-                                        <div class="form-group col-md-12">
+                                         <div class="form-group col-md-12">
                                             <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
                                         </div>
                                         <div class="form-group col-md-12">
-                                            <textarea name="Message" class="form-control" placeholder="Message" id="" cols="30" rows="4"></textarea>
+                                            <textarea name="message" class="form-control" placeholder="Message" id="" cols="30" rows="4" required=""></textarea>
                                         </div>
-
-
-
-
                                     </div>
 
                                     <!-- <p class="text-p"> Already a member? <b>Log in</b> here.</p> -->
-                                    <div class="form-group col-md-12" style="padding:10px 0px;">
-                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                                        <label for="vehicle1"> I agree to the <b> <a href="privacy-policy.php" sdata-toggle="modal"
-                                                    data-target="#myModal"> Terms & Conditions</a></b></label><br>
+
+                                    <div class="form-group " style="padding:10px 0px;">
+                                        <input type="checkbox" id="checkbox" name="checkbox" value="I agree to the Terms & Conditions">
+                                        <label for="vehicle1"> I agree to the</label> <b> <a href="privacy-policy.php" data-toggle="modal"
+                                                    data-target="#myModal"> Terms & Conditions</a></b><br>
                                     </div>
-                                    <div class="">
-                                        <button class="btn-get-started scrollto" type="submit" data-toggle="modal"
-                                            data-target="#otp">Submit</button>
+                                    <div class="buttonWrap">
+                                         <div id="blocker"></div>
+                                        <button class="btn-get-started scrollto" name="submit_h" id="submit_h" type="submit">Submit</button>
+                                    
                                     </div>
                                 </form>
+                                
+                                <!--home page contact form -->
+                                
+                                
                             </div>
                         </div>
 
@@ -373,7 +399,7 @@ include 'blog-view.php';
                             <h1 class="white">Ready To start your journey?</h1>
                         </div>
 
-                        <div class="col-lg-12 " >
+                        <div class="col-lg-12" >
                             <div class="">
                                 <div class="ul-btn">
                                     <ul>
@@ -402,3 +428,58 @@ include 'blog-view.php';
 include 'footer.php';
 include 'f-important-link.php';
 ?>
+
+
+
+ 
+     <script>
+     $(document).ready(function() {
+  
+  // Disable blocker.
+  function unblock() {
+    $("#blocker").css("display", "none");
+  }
+
+  // Enable blocker.
+  function block() {
+    $("#blocker").css("display", "block");
+  }
+
+  // Monitor checkbox.
+  $('body').on('click', '#checkbox', function() {
+    if( $(this).prop("checked") ) {
+        unblock();
+    } else {
+        block();
+    }
+  });
+  
+  // Monitor blocker.
+  $('#blocker').on('click', function() {
+    alert('Please check the box.');
+  });
+});
+        
+    </script>
+    
+    
+    
+    <style>
+        .buttonWrap {
+  position: relative;
+}
+
+    
+
+#blocker {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0);
+}
+
+
+    </style>
+
+
+
