@@ -4,9 +4,35 @@ include 'important-link.php';
 
 ?>
 
+<section id="sign-sec" class="d-flex align-items-center">
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 "
+            data-aos="fade-up" data-aos-delay="200">
+            <h1>Become A Publisher</h1>
+            <center>
+                <hr class="gradient-line">
+            </center>
+            <p style="color:#fff;">String Offers is a leading CPA network and affiliate marketing platform that offers a wide range of high-quality products from top brands to its partners and affiliates. Our user-friendly interface, real-time tracking, and dedicated support help users achieve financial growth through affiliate marketing.
+            <br>
+            As a publisher with String Offers, you'll gain access to a wide range of top-quality products and
+                        offers from leading brands, offering you the opportunity to maximize your earning potential
+                        through affiliate marketing. Our user-friendly interface and real-time tracking make it easy to
+                        track your progress and optimize your performance. In addition, our dedicated support team is
+                        always available to provide guidance and assistance, helping you succeed in your affiliate
+                        marketing efforts and grow your business. Join String Offers today and unlock your earning
+                        potential as a publisher!</p>
+        </div>
+
+    </div>
+
+</div>
+</div>
+</section>
 
 <!-- ======= Hero Section ======= -->
-<section id="publisher" class="d-flex align-items-center">
+<!-- <section id="publisher" class="d-flex align-items-center">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
@@ -35,7 +61,7 @@ include 'important-link.php';
         </div>
     </div>
     </div>
-</section>
+</section> -->
 
 
 

@@ -363,8 +363,7 @@ include 'blog-view.php';
 
                                     <div class="form-group " style="padding:10px 0px;">
                                         <input type="checkbox" id="checkbox" name="checkbox" value="I agree to the Terms & Conditions">
-                                        <label for="vehicle1"> I agree to the</label> <b> <a href="privacy-policy.php" data-toggle="modal"
-                                                    data-target="#myModal"> Terms & Conditions</a></b><br>
+                                        <label for="vehicle1"> I agree to the</label> <b> <a href="terms-and-conditions.php"> Terms & Conditions</a></b><br>
                                     </div>
                                     <div class="buttonWrap">
                                          <div id="blocker"></div>

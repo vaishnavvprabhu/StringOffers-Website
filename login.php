@@ -31,7 +31,7 @@ include 'important-link.php'
                                                             placeholder="E-mail/Username" required>
                                                     </div>
                                                     <div class="form-group col-md-12">
-                                                        <input type="email" class="form-control" name="email" id="email"
+                                                        <input type="password" class="form-control" name="email" id="email"
                                                             placeholder="Password" required>
                                                     </div>
                                                 </div>

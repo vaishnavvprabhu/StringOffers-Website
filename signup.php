@@ -201,8 +201,8 @@ if(isset($_POST['submit_a'])){
                                                                     id="city" placeholder="City" required>
                                                             </div>
                                                             <div class="form-group col-md-6">
-                                                                <input type="tel" class="form-control" name="phone"
-                                                                    id="phone" placeholder="Phone Number" required>
+                                                                <input type="number" class="form-control" name="phone"
+                                                                    id="phone" placeholder="Phone Number" maxlength="10" required>
                                                             </div>
                                                             <div class="form-group col-md-12">
                                                                 <h2>Additional Information</h2>
@@ -376,7 +376,6 @@ if(isset($_POST['submit_a'])){
                                     <div class="signup">
                                         <div class="row">
                                            
-                                            
                                             <div class="col-lg-12">
                                             
                                                 <div class="align-items-stretch">
@@ -397,7 +396,7 @@ if(isset($_POST['submit_a'])){
                                                                     id="email_id" placeholder="E-mail" required>
                                                             </div>
                                                             <div class="form-group col-md-6">
-                                                                <input type="passwors" class="form-control" name="password"
+                                                                <input type="password" class="form-control" name="password"
                                                                     id="password" placeholder="Password" required>
                                                             </div>
 

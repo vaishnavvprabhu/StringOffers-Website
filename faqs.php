@@ -86,7 +86,7 @@ if(isset($_POST['submit_f'])){
                 <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
 
                     <a data-bs-toggle="collapse" class="collapse collapsed" data-bs-target="#faq-list-1"
-                        aria-expanded="false"><span class="s-size">01</span> What is String Offers? <i
+                        aria-expanded="false"><span class="s-size">01</span> <l>What is String Offers?</l> <i
                             class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                     <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list" style="">
                         <p>
@@ -415,7 +415,7 @@ Your statistics are shown in real-time. This means that you can log in 24/7/365 
                                             <div class="form-group col-md-12 text-center">
                                                 <input type="checkbox" id="checkbox" name="checkbox" value="I agree to the Terms & Conditions">
                                                 <label for="vehicle1"> I agree to the <b>
-                                                        <a data-toggle="modal" data-target="#privary">Terms and Conditions.</a>
+                                                        <a data-toggle="modal" data-target="#privary">Privacy Policy.</a>
                                                 </label><br>
                                             </div>
                                         </div>

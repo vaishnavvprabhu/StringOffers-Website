@@ -4,10 +4,35 @@ include 'important-link.php';
 
 ?>
 
+<section id="sign-sec" class="d-flex align-items-center">
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 "
+            data-aos="fade-up" data-aos-delay="200">
+            <h1>Become an Advertiser</h1>
+            <center>
+                <hr class="gradient-line">
+            </center>
+            <p style="color:#fff;">String Offers is a leading CPA network and affiliate marketing platform that offers a wide range of high-quality products from top brands to its partners and affiliates. Our user-friendly interface, real-time tracking, and dedicated support help users achieve financial growth through affiliate marketing.
+            <br>
+            As an advertiser with String Offers, you'll have the opportunity to get your brand in front of
+                        engaged audiences and drive revenue growth through our premier CPA network and advanced
+                        affiliate marketing platform. Our robust network of top-quality publishers and advanced tracking
+                        capabilities ensure maximum performance and ROI. Plus, our dedicated account management team is
+                        always available to provide support and guidance to help you achieve your business goals. Join
+                        String Offers today and take your brand to the next level!</p>
+        </div>
+
+    </div>
+
+</div>
+</div>
+</section>
 
 <!-- ======= Hero Section -  ======= -->
 <!-- TODO:Figure out a better way to implement the Padding -->
-<section id="Advertiser" class="d-flex align-items-center" style="padding-top:33vh;">
+<!-- <section id="Advertiser" class="d-flex align-items-center" style="padding-top:33vh;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
@@ -36,7 +61,7 @@ include 'important-link.php';
         </div>
     </div>
     </div>
-</section>
+</section> -->
 
     <div class="clearfix">
     </div>
@@ -113,6 +138,7 @@ include 'blog-view.php';
 
             </div>
         </div>
+    </section>
 
     
     <?php 

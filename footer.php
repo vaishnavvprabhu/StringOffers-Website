@@ -53,8 +53,8 @@
                         <ul>
                             <li><a href="about-us.php">About Us</a></li>
                             <li><a href="faqs.php">FAQs</a></li>
-                            <li><a href="">Terms & Conditions</a></li>
-                            <li><a href="">Privacy & Policy</a></li>
+                            <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
+                            <li><a href="privacy-policy.php">Privacy & Policy</a></li>
                             <!-- <li><a href="">Terms of services</a></li> -->
                         </ul>
                         </center>

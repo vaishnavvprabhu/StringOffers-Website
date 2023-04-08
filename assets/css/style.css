@@ -2190,9 +2190,10 @@ section {
 }
 
 
+/* Hide Padding on advertiser blogs
 #blog {
   margin-top: 50px;
-}
+} */
 
 .btn-2 {
   background-color: var(--gray);
@@ -4432,7 +4433,7 @@ padding-bottom: 20px;
 }
 
 #faq .s-size{
-  font-size: 36px;
+  /* font-size: 36px; */
   color: #9d96a8;
   line-height: 60px;
   padding: 10px 38px;
